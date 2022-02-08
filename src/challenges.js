@@ -31,8 +31,9 @@ function splitSentence(str) {
 }
 
 // Desafio 4
-function concatName() {
-  // seu código aqui
+function concatName(array) {
+  let invert = array[array.length - 1] + ', ' + array[0];
+  return invert;
 }
 
 // Desafio 5
