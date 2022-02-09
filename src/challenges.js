@@ -18,12 +18,10 @@ function splitSentence(str) {
     if (i === str.length - 1) {
       strEmpty = strEmpty + str[i];
       strSeparated.push(strEmpty);
-    }
-    else if (str[i] === ' '){
+    } else if (str[i] === ' '){
       strSeparated.push(strEmpty);
       strEmpty = '';
-    }
-    else {
+    } else {
       strEmpty = strEmpty + str[i];
     }
   }
@@ -65,8 +63,7 @@ function catAndMouse(mouse, cat1, cat2) {
   let distance2 = Math.abs(cat2 - mouse);
   if (distance1 > distance2) {
     return 'cat2';
-  } 
-  else if (distance1 < distance2) {
+  } else if (distance1 < distance2) {
     return 'cat1';
   }
   return 'os gatos trombam e o rato foge';
@@ -78,14 +75,11 @@ function fizzBuzz(numberArray) {
   for (let i = 0; i < numberArray.length; i += 1) {
     if (numberArray[i] %3 === 0 && numberArray[i] %5 === 0) {
       newArray.push('fizzBuzz');
-    }
-    else if (numberArray[i] %3 ===0) {
+    } else if (numberArray[i] %3 === 0) {
       newArray.push('fizz');
-    }
-    else if (numberArray[i] %5 ===0) {
+    } else if (numberArray[i] %5 === 0) {
       newArray.push('buzz');
-    }
-    else {
+    } else {
       newArray.push('bug!');
     } 
   }
@@ -93,11 +87,44 @@ function fizzBuzz(numberArray) {
 }
 
 // Desafio 9
-function encode() {
-  // seu código aqui
+function encode(string) {
+  let newString = '';
+  for (let i = 0; i < string.length; i += 1) {
+    if (string[i] === 'a') {
+      newString = newString + 1;
+    } else if (string[i] === 'e') {
+      newString = newString + 2;
+    } else if (string[i] === 'i') {
+      newString = newString + 3;
+    } else if (string[i] === 'o') {
+      newString = newString + 4;
+    } else if (string[i] === 'u') {
+      newString = newString + 5;
+    } else {
+      newString = newString + string[i];
+    }
+  }
+  return newString;
 }
-function decode() {
-  // seu código aqui
+
+function decode(string) {
+  let newString = '';
+  for (let i = 0; i < string.length; i += 1) {
+    if (string[i] === '1') {
+      newString = newString + 'a';
+    } else if (string[i] === '2') {
+      newString = newString + 'e';
+    } else if (string[i] === '3') {
+      newString = newString + 'i';
+    } else if (string[i] === '4') {
+      newString = newString + 'o';
+    } else if (string[i] === '5') {
+      newString = newString + 'u';
+    } else {
+      newString = newString + string[i];
+    }
+  }
+  return newString;
 }
 
 // Desafio 10
