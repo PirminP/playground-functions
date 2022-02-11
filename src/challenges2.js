@@ -38,10 +38,14 @@ function generatePhoneNumber(arrayNum) {
 
 // Desafio 12
 function triangleCheck(lineA, lineB, lineC) {
-  // Code here
+  let trueA = lineA < lineB + lineC && lineA > Math.abs(lineC - lineB);
+  let trueB = lineB < lineA + lineC && lineB > Math.abs(lineA - lineC);
+  let trueC = lineC < lineA + lineB && lineB > Math.abs(lineA - lineB);
+    return trueA && trueB && trueC;
 }
 
 // Desafio 13
+// Research: Convert string into number: https://stackabuse.com/javascript-convert-string-to-number/
 function hydrate(string) {
   let water = 0;
   let numString = '123456789';
@@ -53,9 +57,9 @@ function hydrate(string) {
     }
   }
   if (water === 1) {
-    return water + ' copo de água'
+    return water + ' copo de água';
   } else {
-    return water + ' copos de água'
+    return water + ' copos de água';
   }
 }
 
