@@ -38,7 +38,7 @@ function generatePhoneNumber(arrayNum) {
 
 // Desafio 12
 function triangleCheck(lineA, lineB, lineC) {
-  
+  // Code here
 }
 
 // Desafio 13
