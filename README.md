@@ -17,3 +17,4 @@ original string
 
 `highestCount`: receives an `array` of `numbers` and returns how often highest `number` is repeted.
 
+`catAndMouse`: receives position of `mouse`, `cat1` and `cat2`, calculates distance of mouse/cats and returns which cat reachs the mouse first.
