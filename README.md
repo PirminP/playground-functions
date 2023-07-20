@@ -33,7 +33,8 @@ Format of object:
 }
 `
 
-
-
+`generatePhoneNumber`: receives an `array` of 11 `numbers` and returns a telephone number with brackets, dash and spaces according following conditions:
+* if functions receives `array` with different size than 11 -> message: `Array com tamanho incorreto`
+* if number of `array` is smaller than 0, greater than 9 or repeats more than 2 times -> message: `não é possível gerar um número de telefone com esses valores`
 
 
