@@ -21,6 +21,19 @@ original string
 
 `fizzBuzz`: receives an `array` of numbers and returns an `array` of `strings` by replacing the numbers with: `fizzBuzz` if divisible by 3 & 5; `fizz` if divisible by 3; `buzz` if divisible by 5 and `bug!` if none of these conditions is applicable.
 
-`encode`: receives a `string` and returns a `strings` by changing all lower case vowels to `numbers`, according to format: `a -> 1; e -> 2; i -> 3; o -> 4; u -> 2`
+`encode`: receives a `string` and returns a `strings` by changing all lower case vowels to `numbers`, according to format: `a -> 1; e -> 2; i -> 3; o -> 4; u -> 2`.
 
-`decode`: opposite behavior of `encode` function
+`decode`: opposite behavior of `encode` function.
+
+`techList`: receives an `array` of learned technologies and a name of format `string` and returns an `array` of `objects`, with technologies on key `tech` and name on key `name`.\
+Format of object: 
+`{
+  tech: 'techName',
+  name: 'name'
+}
+`
+
+
+
+
+
