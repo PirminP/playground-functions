@@ -37,4 +37,14 @@ Format of object:
 * if functions receives `array` with different size than 11 -> message: `Array com tamanho incorreto`
 * if number of `array` is smaller than 0, greater than 9 or repeats more than 2 times -> message: `não é possível gerar um número de telefone com esses valores`
 
+`triangleCheck`: receives 3 `numbers` which represent lines to form a triangle and returns if it is possible to form a triangle with passed values
+
+`hydrate`: receives a `string` with quantity of alcohol drinks and returns a sugestion of how much glasses of water you should drink to compensate. Example:\
+`reveived string: 3 cachaça, 7 cervejas
+ retuned string: 10 copos de água
+`
+
+an `array` of `strings` seperated by space of 
+original string
+
 
