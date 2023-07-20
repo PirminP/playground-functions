@@ -41,5 +41,4 @@ Format of object:
 
 `hydrate`: receives a `string` with quantity of alcohol drinks and returns a sugestion of how much glasses of water you should drink to compensate. Example:\
 `reveived string: 3 cachaça, 7 cervejas
-
 returned string: 10 copos de água`
