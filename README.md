@@ -40,5 +40,5 @@ Format of object:
 `triangleCheck`: receives 3 `numbers` which represent lines to form a triangle and returns if it is possible to form a triangle with passed values
 
 `hydrate`: receives a `string` with quantity of alcohol drinks and returns a sugestion of how much glasses of water you should drink to compensate. Example:\
-`reveived string: 3 cachaça, 7 cervejas
-returned string: 10 copos de água`
+`reveived string: 3 cachaça, 7 cervejas`\
+`returned string: 10 copos de água`
