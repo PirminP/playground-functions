@@ -20,6 +20,22 @@ Function `getRelatedEmployees` uses this function to validate two conditions:\
 (2) with `{ specie: 'penguins' }` as parameter, return the quantity of penguins in zoo\
 (3) with `{ specie: 'giraffes', sex: 'female' }` as parameter, return the quantity of female giraffes in zoo
 
-`calculateEntry`: 
+`calculateEntry`: seperated in two functions (best practices).\
+First function `countEntrants`...\
+Function `calculateEntry`...
 
 
+```
+const entrants = [
+  { name: 'Lara Carvalho', age: 5 },
+  { name: 'Frederico Moreira', age: 5 },
+  { name: 'Pedro Henrique Carvalho', age: 5 },
+  { name: 'Maria Costa', age: 18 },
+  { name: 'Núbia Souza', age: 18 },
+  { name: 'Carlos Nogueira', age: 50 },
+];
+```
+
+<!---
+calculateEntry: separada em duas funções mediante a prática de responsabilidade única, a primeira função recebe um array de visitantes no formato abaixo e retorna um objeto com a quantidade de pessoas em casa faixa etária: { child: 3, adult: 2, senior: 1 }; e a segunda função recebe o objeto da primeira função e calcula o valor total a ser pago pelas entradas deste grupo de pessoas presente na constante entrants.
+-->
