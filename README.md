@@ -10,15 +10,8 @@
 
 `getEmployeeByName`: receives an employee name to search for first or last name and returns an `object` of this employee
 
-
-
-<!---
-`calcArea`: receives a `base` and `height` and returns the `area` of a triangle.
-
-`splitSentence`: receives a `string` and returns an `array` of `strings` seperated by space of 
-original string
-
-`concatName`: receives an `array` of `strings` and returns an inverted `string` (last item, first item)
--->
-
+`getRelatedEmployees`: seperated in two functions (best practices). First function `isManager` verifies if employee is manager or not by receiving an id and return a `boolean`, true or false.\
+Function `getRelatedEmployees` uses this function to validate two conditions:\
+(1) true -> returns an `array` with the names of employees which manager is responsible for or\
+(2) false -> returns an `error message`: 'O id inserido não é de uma pessoa colaboradora gerente!' if employee is not manager
 
