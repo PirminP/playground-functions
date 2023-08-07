@@ -8,6 +8,9 @@
 
 `getAnimalsOlderThan`: receives a species name & minimal age and returns a `boolean` verifying if all animals of this species have a certrain minimal age
 
+`getEmployeeByName`: receives an employee name to search for first or last name and returns an `object` of this employee
+
+
 
 <!---
 `calcArea`: receives a `base` and `height` and returns the `area` of a triangle.
