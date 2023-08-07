@@ -6,6 +6,8 @@
 ## Description of created functions: 
 `getSpeciesByIds`: receives one or more ids to search for animal species by id and returns an `array` containing all species of input parameter ids.
 
+`getAnimalsOlderThan`: receives a species name & minimal age and returns a `boolean` verifying if all animals of this species have a certrain minimal age
+
 
 <!---
 `calcArea`: receives a `base` and `height` and returns the `area` of a triangle.
