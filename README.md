@@ -36,4 +36,11 @@ const entrants = [
 ];
 ```
 
+`getAnimalMap`: responsible for geographical mapping of the species and animals, able to filter in alphabetical order and gender. The function can receive three keys as input parameters and return the following:\
+(1) no input parameter -> returns animals categorized by location\
+(2) includeNames: true -> returns the name of each animal in the geographic mapping\
+(3) includeNames: true + sorted: true -> returns sorted animal names\
+(4) includeNames: true + sex: 'male' -> returns animal name of specific gender\
+(5) combination of keys includeName + sorted + sex -> returns only sorted animal names with specific gender
+
 
