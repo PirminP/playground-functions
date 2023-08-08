@@ -2,13 +2,14 @@
 
 ### This project consists of creating functions to facilitate the management of a zoo.
 * Designed by using JavaScript
+* The devoloped functions and zoo data can be found in src folder
 
 ## Description of created functions: 
 `getSpeciesByIds`: receives one or more ids to search for animal species by id and returns an `array` containing all species of input parameter ids.
 
 `getAnimalsOlderThan`: receives a species name & minimal age and returns a `boolean` verifying if all animals of this species have a certrain minimal age
 
-`getEmployeeByName`: receives an employee name to search for first or last name and returns an `object` of this employee
+`getEmployeeByName`: receives an employee name to search for first or last name and returns a `object` of this employee
 
 `getRelatedEmployees`: seperated in two functions (best practices). First function `isManager` verifies if employee is manager or not by receiving an id and return a `boolean`, true or false.\
 Function `getRelatedEmployees` uses this function to validate two conditions:\
@@ -21,9 +22,8 @@ Function `getRelatedEmployees` uses this function to validate two conditions:\
 (3) with `{ specie: 'giraffes', sex: 'female' }` as parameter, return the quantity of female giraffes in zoo
 
 `calculateEntry`: seperated in two functions (best practices).\
-First function `countEntrants`...\
-Function `calculateEntry`...
-
+First function `countEntrants` receives an `array` of entrants in the format below and returns a `object` with the number of visitors in each age group: `{ child: 3, adult: 2, senior: 1 }`.\
+Function `calculateEntry` receives the returned `object` of the first function and calculate the total costs of the zoo visitors (const entrants) based on the entry fee.
 
 ```
 const entrants = [
@@ -36,6 +36,4 @@ const entrants = [
 ];
 ```
 
-<!---
-calculateEntry: separada em duas funções mediante a prática de responsabilidade única, a primeira função recebe um array de visitantes no formato abaixo e retorna um objeto com a quantidade de pessoas em casa faixa etária: { child: 3, adult: 2, senior: 1 }; e a segunda função recebe o objeto da primeira função e calcula o valor total a ser pago pelas entradas deste grupo de pessoas presente na constante entrants.
--->
+
