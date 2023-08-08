@@ -46,6 +46,8 @@ const entrants = [
 `getSchedule`: 
 
 <!---
+!!!!STARTING TO ANALYSE CODE OF function getSchedule(scheduleTarge) IN getSchedule.js!!!!
+
 função que é responsável por disponibilizar as informações de horário dos animais em uma consulta para o usuário, que pode querer ter acesso ao cronograma da semana, de um dia ou de um animal em específico.
 
 receives an employee name to search for first or last name and returns a `object` of this employee
