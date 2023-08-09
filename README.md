@@ -43,13 +43,8 @@ const entrants = [
 (4) includeNames: true + sex: 'male' -> returns animal name of specific gender\
 (5) combination of keys includeName + sorted + sex -> returns only sorted animal names with specific gender
 
-`getSchedule`: 
+`getSchedule`: responsible for making the animals' schedule information available to user, who may want to have access to the schedule of the week, of a day or of a specific animal.
 
 <!---
-!!!!STARTING TO ANALYSE CODE OF function getSchedule(scheduleTarge) IN getSchedule.js!!!!
-
-função que é responsável por disponibilizar as informações de horário dos animais em uma consulta para o usuário, que pode querer ter acesso ao cronograma da semana, de um dia ou de um animal em específico.
-
-receives an employee name to search for first or last name and returns a `object` of this employee
 -->
 
