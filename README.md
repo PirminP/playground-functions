@@ -47,7 +47,9 @@ const entrants = [
 
 `getOldestFromFirstSpecies`: receives an employee id as input parameter to search for the oldest animal of the first species which employee is responsible for and returns the values name, sex, age of this `object`.
 
-
-<!---
--->
+`getEmployeesCoverage`: responsible for associating coverage information of employees and returns a `object` containing id, complete name, responsible species and locations.\
+The following configurations are possible:\
+(1) no input parameter -> returns realation of all zoo employees\
+(2) firstname, lastname and valid id as parameter -> returns relation of one specific employee\
+(3) invalid input parameters -> throw error message: `Informações inválidas`
 
