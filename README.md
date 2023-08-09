@@ -45,6 +45,9 @@ const entrants = [
 
 `getSchedule`: responsible for making the animals' schedule information available to user, who may want to have access to the schedule of the week, of a day or of a specific animal.
 
+`getOldestFromFirstSpecies`: receives an employee id as input parameter to search for the oldest animal of the first species which employee is responsible for and returns the values name, sex, age of this `object`.
+
+
 <!---
 -->
 
